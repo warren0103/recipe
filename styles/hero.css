@@ -1,0 +1,52 @@
+.hero {
+    border-radius: 10px;
+    background-image: url('../assets/images/background_image.jpg');
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-radius: 10px;
+    height: 450px;
+}
+.hero .hero-overlay {
+    height: 100%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: #000000D4;
+    border-radius: 10px;
+}
+.hero .hero-content {
+    height: 100%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    text-align: center;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+.hero-content h1 {
+    color: white;
+    font-size: 36px;
+}
+.hero-content h2 {
+    color: #e42f44;
+    font-size: 56px;
+}
+.hero-content p {
+    color: white;
+    text-align: center;
+}
+.hero-content a {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-top: 20px;
+}
+.hero-content a span {
+    color: #e42f44;
+}
+.hero-content img {
+    width: 20px;
+    margin-right: 10px;
+}

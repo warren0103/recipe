@@ -1,0 +1,44 @@
+.footer {
+    background-color: #1b1414;
+    padding: 20px 0px;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer h1 {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+
+}
+.footer h1 span {
+    align-self: center;
+    margin-left: 10px;
+    color: #e42f44;
+}
+.footer img  {
+    width: 40px;
+    height: 40px;
+}
+.footer h3 {
+    color: white;
+}
+.footer ul {
+    display: flex;
+}
+.footer ul li {
+    padding: 5px 10px;
+}
+.footer ul li a {
+    color: #e42f44;
+}
+.footer ul li:first-child {
+    padding-left: 0px;
+}
+
+.footer p {
+    font-size: 12px;
+    color: white;
+}
